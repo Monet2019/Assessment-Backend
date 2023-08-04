@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+  <h1> What is your Fortune?</h1>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <br>
+    <button id="fortune-button">Get Fortune</button>
+
+    <!-- Add fortune section -->
+    <section>
+      <form id="add-fortune-form">
+        <h3>Add Fortune</h3>
+        <input type="text" id="add-fortune-text" placeholder="fortune to add">
+        <button>Add Fortune</button>
+      </form>
+    </section>
+
+    <!-- Change fortune section -->
+    <section>
+      <form id="change-fortune-form">
+        <h3>Change Fortune</h3>
+        <input type="text" id="change-fortune-text" placeholder="fortune to change">
+        <input type="text" id="change-fortune-to-text" placeholder="what to change the fortune to">
+        <button>Change Fortune</button>
+      </form>
+    </section>
+
+    <!-- Remove fortune section -->
+    <section>
+      <form id="remove-fortune-form">
+        <h3>Remove Fortune</h3>
+        <input type="text" id="remove-fortune-text" placeholder="fortune to remove">
+        <button>Remove Fortune</button>
+      </form>
+    </section>
+
+    <!-- All fortunes section -->
+    <section>
+      <h3>All Fortunes</h3>
+      <button id="show-all-fortunes-button">Show all fortunes</button>
+      <button id="hide-all-fortunes-button">Hide all fortunes</button>
+      <button id="delete-all-fortunes-button">Delete all fortunes</button>
+      <div id="all-fortunes-div"></div>
+    </section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>

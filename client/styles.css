@@ -1,0 +1,19 @@
+body {
+    padding: 30px;
+}
+
+  
+
+form {
+    padding-top: 20px;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: stretch;
+}
+
+button {
+    margin-top: 10px;
+}
